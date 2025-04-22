@@ -9,3 +9,4 @@ pydantic
 python-jose
 bcrypt
 pandas
+dateparser

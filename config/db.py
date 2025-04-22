@@ -1,6 +1,6 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 
-uri = "mongodb://localhost:27017"
+uri = "mongodb+srv://malharchauhan7777:Malhar7777@expensemate.mpzoetd.mongodb.net/?retryWrites=true&w=majority&appName=expensemate"
 client = AsyncIOMotorClient(uri)
 
 db = client["expense-tracker-db"]
